@@ -1,4 +1,5 @@
 require 'net/http'
+# for non wsl sysytems nokogiri is not available by default.
 require 'nokogiri'
 
 # Validates the url to be valid in case of invalid url return false else return true
